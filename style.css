@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --primary-color:rgb(228, 99, 30);
+}
+.swiper {
+  height: 400px !important;
+  width:100% !important;
+}
+.swiper-slide img{
+    object-fit: cover;
+}
+#productsMain{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  max-width: 1280px;
+  margin: auto;
+  padding: 50px 0px;
+}
